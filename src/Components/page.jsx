@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 
-function ClarifionUpsell() {
+function Page() {
  
     const items = [
       <div key="guarantee" className="flex items-stretch justify-between gap-2" style={{ overflowX: 'hidden'}}>
@@ -147,7 +147,7 @@ function ClarifionUpsell() {
         </h1>
       </div>
       <div className="text-neutral-600 text-xl leading-6 capitalize self-center mt-px max-md:max-w-full max-md:text-sm">
-        Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
+        By : Juan Manuel Montoya Giraldo , 
       </div>
       <div key="steps" className="justify-between items-stretch self-center flex max-w-[1245px] gap-5 max-md:max-w-full max-md:flex-nowrap max-md:justify-center">
         {isSmallScreen? 
@@ -491,14 +491,14 @@ function ClarifionUpsell() {
         </div>
       </div>
       <div style={{ textAlign: 'center' }} className="bg-slate-800 flex flex-col mt-16 px-5 py-8 max-md:max-w-full max-md:mt-10">
-  <div className="flex justify-center w-full max-w-[1254px] items-stretch gap-5 max-md:max-w-full max-md:flex-wrap">
+  <div className="flex justify-around w-full items-stretch gap-5 max-md:max-w-full max-md:flex-wrap">
     <div className="items-stretch rounded flex gap-4 max-md:justify-center">
       <div className="text-white text-base leading-6 capitalize max-md:text-sm">
         Copyright (c) 2023
       </div>
       <div className="bg-white w-px shrink-0 h-6" />
       <div className="text-white text-base self-center leading-6 upercase whitespace-nowrap max-md:text-sm">
-        Made by Krisbel Rosas
+      Clarifionsupport@clarifion.com
       </div>
     </div>
     <div className="items-stretch self-center flex gap-4 my-auto">
@@ -519,4 +519,4 @@ function ClarifionUpsell() {
 
 
 
-export default ClarifionUpsell;
+export default Page;

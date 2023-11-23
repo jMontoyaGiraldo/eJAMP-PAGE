@@ -1,9 +1,9 @@
-import ClarifionUpsell from "./Components/upsellPage";
+import Page from "./Components/page";
 
 function App() {
 
   return (
-    <ClarifionUpsell />
+    <Page />
   );
 }
 export default App;
