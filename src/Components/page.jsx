@@ -147,7 +147,7 @@ function Page() {
         </h1>
       </div>
       <div className="text-neutral-600 text-xl leading-6 capitalize self-center mt-px max-md:max-w-full max-md:text-sm">
-        By : Juan Manuel Montoya Giraldo , 
+        By : Juan Manuel Montoya Giraldo
       </div>
       <div key="steps" className="justify-between items-stretch self-center flex max-w-[1245px] gap-5 max-md:max-w-full max-md:flex-nowrap max-md:justify-center">
         {isSmallScreen? 
